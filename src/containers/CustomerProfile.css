@@ -1,0 +1,125 @@
+.profileContainer{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.polaroid {
+    padding:10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    max-height: 200px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  .photo{
+      width: 200px;
+      height:auto;
+      margin: auto;
+  }
+
+  .title{
+      margin: auto;
+      text-align: center;
+      margin-bottom: 50px;
+      font-weight: bold;
+      font-size: 30px;
+  }
+
+  .secondaryTitle{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    background-color:rgb(247, 247, 247)
+}
+
+.grid-container-profile {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 45% 60%;
+    padding: 10px;
+    margin: auto;
+  }
+  .grid-item-profile {
+    padding: 2px;
+    font-size: 20px;
+  }
+
+  .right-align{
+      text-align: right;
+      padding-right: 20px; 
+      font-weight: bold; 
+      font-size: 19.5px;
+  }
+
+
+  .info{
+      background-color: rgb(250, 250, 250);
+      padding-bottom: 30px;
+  }
+  #orders {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #orders td, #orders th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #orders tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #orders tr:hover {background-color: #ddd;}
+  
+  #orders th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #313aab;
+    color: white;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(92, 70, 218);
+  }
+  
+  .button1:hover {
+    background-color: rgb(92, 70, 218);
+    color: white;
+  }
+
+  .button-container{
+      width: 67%;
+      margin: auto;
+  }
